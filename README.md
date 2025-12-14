@@ -3,24 +3,37 @@
 <img width="1366" height="607" alt="pdf" src="https://github.com/user-attachments/assets/e7583b7b-95cb-4399-85dc-a45248e0a916" />
 
 🏗️ 技术架构
+
 PDFium 引擎：Google 开源的 PDF 渲染引擎，Chromium 浏览器内置的 PDF 解析器
 WebAssembly：高性能二进制格式，接近原生代码的执行速度
 
+
 🎯 应用场景
-📊 文档内容分析：批量处理 PDF 文档，提取结构化数据
 
-兼容性
-📱 跨平台：桌面端和移动端均可使用
+文档内容分析：批量处理 PDF 文档，提取结构化数据
 
+📱 兼容性
+
+跨平台：桌面端和移动端均可使用
+
+基本使用
 基本使用
 
 <script setup>
-// 引入PDF解析组件
+  
+
+  // 引入PDF解析组件
+  
+  
 import { PdfExtractor } from './components/index.js'
+  
+  
 </script>
 
 <template>
+  
   <PdfExtractor></PdfExtractor>
+  
 </template>
 
 <style scoped></style>
