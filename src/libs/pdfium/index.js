@@ -1,4 +1,4 @@
-// pdfium-fixed-loader.js
+// pdfium-loader.js
 
 let _pdfium = null;
 
@@ -592,4 +592,5 @@ export default {
   safeClosePDFDocument,
   createTestPDF,
   testPDFium
+
 };  
